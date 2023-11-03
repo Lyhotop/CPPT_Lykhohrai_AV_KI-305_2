@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI305.Lykhohrai.Lab6","l":"Money"},{"p":"KI305.Lykhohrai.Lab6","l":"Precious"},{"p":"KI305.Lykhohrai.Lab6","l":"SafeApp"}];updateSearchResults();

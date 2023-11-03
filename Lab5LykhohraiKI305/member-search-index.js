@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"KI305.Lykhohrai.Lab5","c":"FioApp","l":"FioApp()","u":"%3Cinit%3E()"},{"p":"KI305.Lykhohrai.Lab5","c":"FioApp","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

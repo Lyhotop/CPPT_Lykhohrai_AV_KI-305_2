@@ -1,0 +1,78 @@
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Is printer work?True.
+Use ink and paper.
+Use ink and paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Is printer work?True.
+Use ink and paper.
+Use ink and paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Is printer work?True.
+Use ink and paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Is printer work?True.
+Use ink and paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Is printer work?True.
+Use ink and paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Is printer work?True.
+Use ink and paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI305.lykhohrai.Lab2","l":"InkCartridge"},{"p":"KI305.lykhohrai.Lab2","l":"NetworkConnection"},{"p":"KI305.lykhohrai.Lab2","l":"PaperTray"},{"p":"KI305.lykhohrai.Lab2","l":"Printer"},{"p":"KI305.lykhohrai.Lab2","l":"PrinterDriver"}];updateSearchResults();

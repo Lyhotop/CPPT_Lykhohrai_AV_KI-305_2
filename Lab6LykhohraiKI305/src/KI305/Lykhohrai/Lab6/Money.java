@@ -13,6 +13,8 @@ public class Money implements Data{
      * @param name Name of money
      * @param size Amount of money
      */
+
+    public Money(){};
     public Money (String name,  int size)
     {
         billName = name;

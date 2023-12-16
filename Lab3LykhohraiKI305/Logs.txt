@@ -141,3 +141,34 @@ Get printer name.
 Check paper level.
 Check ink level.
 Printer is off.
+Printer is on.
+Print document.
+Is printer work?false.
+Printer has problem!
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Printer is on.
+Print document.
+Printer is on.
+Print document.
+Is printer work?true.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Printer is on.
+Print document.
+Is printer work?true.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.

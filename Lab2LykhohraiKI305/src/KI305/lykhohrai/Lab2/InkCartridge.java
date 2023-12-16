@@ -4,7 +4,7 @@ import java.util.Scanner;
 The class InkCartridge implements a printer cartridge.
 @param ink Level nk level in the printer.
 */
-public class InkCartridge {
+    public class InkCartridge {
     private int inkLevel;
     // The default constructor.
     public InkCartridge(){

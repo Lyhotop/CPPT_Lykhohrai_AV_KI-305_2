@@ -14,6 +14,7 @@ public class Printer {
     private PaperTray paperTray;
     private InkCartridge inkCartridge;
     private NetworkConnection networkConnection;
+
     // The default constructor.
     public Printer() {
         model = "unknow";
@@ -23,6 +24,7 @@ public class Printer {
         networkConnection = new NetworkConnection();
 
     }
+
     // The constructor with parameters.
     public Printer(String model, InkCartridge inkCartridge, PaperTray paperTray, NetworkConnection networkConnection, int resourse) {
         this.model = model;
@@ -60,6 +62,7 @@ public class Printer {
                 System.out.print("Замало чорнила або паперу!\n");
         }
     }
+
     // Print text to the console.
     public void workPrinter(String document) {
         writeLogs("Printing document.\n");
@@ -83,6 +86,7 @@ public class Printer {
             System.out.println("Виникла помилка при читанні файлу: " + e.getMessage());
         }
     }
+
     // Count ink for printing.
     public int countInk(String text) {
         writeLogs("Count ink.\n");
@@ -91,17 +95,20 @@ public class Printer {
         }
         return text.length();
     }
+
     // Use ink and paper.
     public void useInkPaper(String text) {
         writeLogs("Use ink and paper.\n");
         paperTray.UsePaper();
         inkCartridge.UseInk(countInk(text));
     }
+
     // Check if printer is work.
     public boolean isWork() {
         writeLogs("Is printer work?" + work + ".\n");
         return (work);
     }
+
     // Power on.
     public void powerOn() {
         writeLogs("Printer is on.\n");
@@ -113,6 +120,7 @@ public class Printer {
             resourse--;
         }
     }
+
     // Power off.
     public void powerOff() {
         writeLogs("Printer is off.\n");
@@ -120,6 +128,7 @@ public class Printer {
         work = false;
         networkConnection.Disconnect();
     }
+
     // Calibrate printer.
     public void calibratePrinter() {
         writeLogs("Calibrate printer\n");
@@ -128,6 +137,7 @@ public class Printer {
         paperTray.ResetPaperCount();
         resourse = 100;
     }
+
     // Clean printer heads.
     public void cleanPrintHeads() {
         writeLogs("Clear printer\n");
@@ -136,6 +146,7 @@ public class Printer {
         resourse = 0;
         System.out.print("Принтер очищено! \n");
     }
+
     // Print "About printer".
     public void AboutPrinter() {
         writeLogs("About printer.\n");
@@ -145,36 +156,43 @@ public class Printer {
         CheckInkLevel();
         System.out.print("IP адреса: " + networkConnection.getIpAddress() + "\n");
     }
+
     // Check ink level.
     public void CheckInkLevel() {
         writeLogs("Check ink level.\n");
-        System.out.print("Залишилось чорнила:" + inkCartridge.GetInkLevel() + "\n");
+        System.out.print("Залишилось чорнила: " + inkCartridge.GetInkLevel() + "\n");
     }
+
     // Check paper level.
     public void CheckPaperLevel() {
         writeLogs("Check paper level.\n");
-        System.out.print("Залишилось паперу:" + paperTray.GetPaperCount() + "\n");
+        System.out.print("Залишилось паперу: " + paperTray.GetPaperCount() + "\n");
     }
+
     // Add paper.
     public void addPaper() {
         writeLogs("Add paper.\n");
         paperTray.AddPaper();
     }
+
     // Add ink.
     public void addInkLevel() {
         writeLogs("Add ink.\n");
         inkCartridge.AddInk();
     }
+
     // Set printer name.
     void SetPrinterName(String name) {
         writeLogs("Set printer name.\n");
         model = name;
     }
+
     // Get printer name.
     String GetPrinterName() {
         writeLogs("Get printer name.\n");
         return model;
     }
+
     // Write logs about work of printer.
     public void writeLogs(String textToWrite) {
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Logs.txt", true))) {
@@ -184,18 +202,16 @@ public class Printer {
             System.err.println("Сталася помилка при записі до файлу: " + e.getMessage());
         }
     }
+
     // Set max paper count.
     public void replacePaperTray(PaperTray newPaperTray) {
         newPaperTray.ResetPaperCount();
         newPaperTray.SetPaperCount(250);
     }
+
     // Set max ink leve.
     public void replaceInkCartridge(InkCartridge newInkCartridge) {
         newInkCartridge.ResetInkLevel();
         newInkCartridge.SetInkLevel(100);
-    }
-
-    public int GetResource(){
-        return resourse;
     }
 }

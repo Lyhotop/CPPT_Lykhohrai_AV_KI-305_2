@@ -331,3 +331,134 @@ About printer.
 Get printer name.
 Check paper level.
 Check ink level.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Add paper.
+Print document.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Printer is on.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.
+Print document.
+Is printer work?true.
+Printing document.
+Use ink and paper.
+Count ink.
+Printing document.
+Use ink and paper.
+Count ink.
+About printer.
+Get printer name.
+Check paper level.
+Check ink level.

@@ -7,9 +7,5 @@ public class PrinterDriver {
             myPrinter.AboutPrinter();
             myPrinter.printDocument();
             myPrinter.AboutPrinter();
-            myPrinter.addPaper();
-            myPrinter.printDocument();
-            myPrinter.AboutPrinter();
         }
-
    }

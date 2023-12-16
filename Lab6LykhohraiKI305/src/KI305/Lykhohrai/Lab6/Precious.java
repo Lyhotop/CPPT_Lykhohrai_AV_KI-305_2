@@ -13,6 +13,7 @@ public class Precious implements Data{
      * @param name Name of precious
      * @param size size of precious
      */
+    public Precious(){};
     public Precious (String name,  int size)
     {
         preciousName = name;
